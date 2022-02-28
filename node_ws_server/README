@@ -1,0 +1,11 @@
+A simple peer to peer web socket server application. 
+In order to run the server execute yarn/npm start.
+Default ports are 8080 and 9090. 
+If you want to change them just provide new ports as arguments. "yarn start 2222 3333".
+In order to check the WS server you can connect with the simple ws clients.
+Execute "yarn/npm client 8080" in order to connect to the 8080 connection. 
+This server will just propagate data from one connection to the other and vice versa.
+
+Note: This should be used only for testing purposes of the Development Task.
+
+Note: For security reasons the JS files are changed to txt. In order to executed them, change the extension back to .js.

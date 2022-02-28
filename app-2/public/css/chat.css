@@ -1,0 +1,131 @@
+body {
+    margin: 0 auto;
+}
+
+.sidenav {
+    height: 100%;
+    width: 300px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    padding-top: 20px;
+}
+
+.sidenav a {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 18px;
+    color: #818181;
+    display: block;
+}
+
+.sidenav a:hover {
+    color: #f1f1f1;
+}
+
+.main {
+    margin-left: 300px;
+    /* Same as the width of the sidenav */
+    font-size: 14px;
+    /* Increased text to enable scrolling */
+    padding: 0px 10px;
+    height: 88vh;
+}
+
+@media screen and (max-height: 450px) {
+    .sidenav {
+        padding-top: 15px;
+    }
+
+    .sidenav a {
+        font-size: 18px;
+    }
+}
+
+.container {
+    border: 2px solid lightgray;
+    border-radius: 8px;
+    background-color: #f1f1f1;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px 0;
+}
+
+.darker {
+    border-color: #ccc;
+    background-color: #ddd;
+}
+
+.container::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.container img {
+    float: left;
+    max-width: 60px;
+    width: 100%;
+    margin-right: 20px;
+    border-radius: 50%;
+}
+
+.container img.right {
+    float: right;
+    margin-left: 20px;
+    margin-right: 0;
+}
+
+.nav-foot {
+    height: 50px;
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    margin-left: 16px;
+    list-style-type: none;
+    padding-bottom: 2.5em;
+}
+
+.main input {
+    width: 100%;
+    border: 1px solid lightgray;
+    border-radius: 32px;
+    margin: 0 0 15px;
+    padding: 15px;
+    box-sizing: border-box;
+    font-size: 14px;
+}
+
+.nav-search {
+    text-align: center;
+}
+
+.sidenav input {
+    width: 80%;
+    border: 1px solid lightgray;
+    border-radius: 32px;
+    padding: 10px;
+    box-sizing: border-box;
+    font-size: 14px;
+}
+
+.main-body {
+    height: 100%;
+}
+
+.right-msg {
+    float: right;
+    display: table-column;
+    text-align: right;
+    color: #999;
+}
+
+.left-msg {
+    float: left;
+    display: table-column;
+    text-align: left;
+    color: #aaa;
+}

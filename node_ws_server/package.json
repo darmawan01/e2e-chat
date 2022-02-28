@@ -1,0 +1,14 @@
+{
+  "name": "node_ws_server",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "node src/index.js",
+    "client": "node src/ws-client.js",
+    "clean": "rm -rf node_modules; rm yarn.lock"
+  },
+  "dependencies": {
+    "ws": "^7.4.6"
+  }
+}

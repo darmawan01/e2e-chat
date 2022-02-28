@@ -1,0 +1,20 @@
+{
+  "name": "app-1",
+  "version": "1.0.0",
+  "description": "app-1",
+  "main": "./src/main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "keywords": [
+    "Electron",
+    "quick",
+    "start",
+    "tutorial",
+    "demo"
+  ],
+  "devDependencies": {
+    "electron": "^17.0.1",
+    "electron-reloader": "^1.2.3"
+  }
+}
