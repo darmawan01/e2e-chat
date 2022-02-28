@@ -22,7 +22,7 @@ npm i
 yarn start
 ```
 
-## App 2 (app-2)
+## App 2 (app-2) (Using elm, this app on progress)
 Other client side chat App
 ### Spin Up
 - Go to the app-2
